@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Stock Volume Predictor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Volume Predictor</h1>
+        <form action="/predict" method="POST">
+            <div class="form-group">
+                <label for="Open">Open Price</label>
+                <input type="number" step="0.01" id="Open" name="Open" placeholder="Enter Open Price" required>
+            </div>
+            <div class="form-group">
+                <label for="High">High Price</label>
+                <input type="number" step="0.01" id="High" name="High" placeholder="Enter High Price" required>
+            </div>
+            <div class="form-group">
+                <label for="Low">Low Price</label>
+                <input type="number" step="0.01" id="Low" name="Low" placeholder="Enter Low Price" required>
+            </div>
+            <div class="form-group">
+                <label for="Close">Close Price</label>
+                <input type="number" step="0.01" id="Close" name="Close" placeholder="Enter Close Price" required>
+            </div>
+            <button type="submit" class="btn">Predict Volume</button>
+        </form>
+    </div>
+</body>
+</html>
