@@ -1,15 +1,7 @@
 # Stock Market Trend Prediction
 
-## Team Information
-- **Team Name**: The Captivators
-- **Team Members & Roles**:
-  - **Data Extraction & Preprocessing**: P. Kusuma Priya  
-  - **Model Development & Training**: T. Thanmai  
-  - **Dashboard & UI Development**: D. Mounika  
-  - **Testing & Deployment**: B. Amrutha Varshini  
-- **Contact Email**: thokalathanmai.22.csd@anits.edu.in
+- **Website**: [Stock Market Trend Prediction](https://alpha-vantage.onrender.com)
 
----
 
 ## 1. Use Case Details
 
@@ -32,7 +24,6 @@ Predicting Stock Market Trends Using Alpha Vantage API
 - Train a machine learning model to predict stock price trends.
 - Display insights and recommendations on a dashboard for informed decision-making.
 
----
 
 ## 2. Technical Implementation
 
@@ -99,7 +90,6 @@ Predicting Stock Market Trends Using Alpha Vantage API
   - API Rate Limits: Implemented request caching.
   - Model Latency: Optimized with feature selection.
 
----
 
 ## 3. UI/UX Implementation
 
@@ -155,12 +145,13 @@ Predicting Stock Market Trends Using Alpha Vantage API
   - Issue: Initial UI lacked clarity in button styling → Solution: Enhanced button contrast and hover effects.
   - Issue: Users requested a "Clear Input" button → Solution: Added reset functionality.
 
----
 
 ## 4. Conclusion
 - The project successfully integrates real-time stock data with machine learning predictions.
 - The UI/UX design ensures accessibility and ease of use for traders and analysts.
 - The model's performance is optimized for accuracy and scalability.
 - Future enhancements could include additional technical indicators and real-time alerts for traders.
+
+
 
 
