@@ -1,4 +1,4 @@
-1. Use Case Details
+# 1. Use Case Details
 
 Title of the Use Case
 
